@@ -1,7 +1,7 @@
 class Car
-  attr_reeder :color
+  attr_reader :color
 
-  def init(color)
+  def initialize(color)
     @color = color
   end
 end
